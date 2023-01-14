@@ -6,7 +6,6 @@ It is planned to avoid the long waiting times that large files spend on compress
 
 ## 😎How will the files be stored in a single file?
 The container file is actually an xml file. The file structure is specified as follows.
-```
 ```xml
 <?xml version="1.0"?>
 <ContainerFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -19,5 +18,4 @@ The container file is actually an xml file. The file structure is specified as f
 		<base64Binary>...</base64Binary>
 	</FileBytes>
 </ContainerFile>
-```
 ```
