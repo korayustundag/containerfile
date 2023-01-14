@@ -10,8 +10,8 @@ The container file is actually an xml file. The file structure is specified as f
 <?xml version="1.0"?>
 <ContainerFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<FileNames>
-		<string>File Name.ext</string>
-		<string>Filename without extension</string>
+		<FileName>File Name.ext</FileName>
+		<FileName>Filename without extension</FileName>
 	</FileNames>
 	<FileBytes>
 		<base64Binary>...</base64Binary>
